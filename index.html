@@ -19,25 +19,30 @@
                 class="md:hidden  text-3xl cursor-pointer relative w-8 h-8 flex items-center justify-center">
 
                 <!-- Icône ☰ -->
-                <span class="absolute transition-all duration-300 peer-checked:rotate-45 peer-checked:translate-y-0">
+                <span class="ml-15 absolute transition-all duration-300 peer-checked:rotate-45 peer-checked:translate-y-0">
                     ☰
                 </span>
 
             </label>
             <input type="checkbox" id="menu-toggle" class="hidden peer" />
 
-        <div class="flex justify-between items-center px-6 py-4 ">
-            <div class="bg-[url('Mes_image/img_2.png')] bg-cover bg-no-repeat w-[80px] h-[55px] md:w-[95px] md:h-[70px]"></div>
-            <div class="hidden md:flex items-center space-x-8">
-                <a href="#" class="text-orange_fnc">ACCUEIL</a>
-                <a href="#" class="text-black font-normal text-xl">Formations ▾</a>
-                <a href="#" class="text-black font-normal text-xl">Coachs</a>
-                <a href="#" class="text-black font-normal text-xl">Événements</a>
-                <a href="#" class="text-black font-normal text-xl">Blog</a>
-                <a href="#" class="text-black font-normal text-xl">Bourses</a>
-               <button class="bg-orange_fnc text-white px-10 py-4 font-base text-xl
-                rounded-full font-semibold hover:bg-orange-00 transition ml-30 ">Nous rejoindre</button>
-            </div>
+        <div class="flex justify-between items-center px-6 py-2 ">
+            <div class="bg-[url('Mes_image/img_2.png')] bg-cover bg-no-repeat w-[100px] h-[55px] ml-20 pb-25 md:w-[95px] md:h-[70px]
+            absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 "></div>
+            <div class="hidden md:flex items-center space-x-10">
+            <a href="#" class="text-orange_fnc font-normal text-lg">Accueil</a>
+            <a href="#" class="text-gray-800 font-normal text-2xl hover:text-orange_fnc transition">Formations ▾</a>
+            <a href="#" class="text-gray-800 font-normal text-2xl hover:text-orange_fnc transition">Coachs</a>
+            <a href="#" class="text-gray-800 font-normal text-2xl hover:text-orange_fnc transition">Événements</a>
+            <a href="#" class="text-gray-800 font-normal text-2xl hover:text-orange_fnc transition">Blog</a>
+            <a href="#" class="text-gray-800 font-normal text-2xl hover:text-orange_fnc transition">Bourses</a>
+        </div>
+
+        <!-- Bouton -->
+        <button class="hidden md:block bg-orange_fnc text-white px-8 py-3
+         rounded-full font-semibold text-lg hover:bg-orange-600 transition mr-20">
+            Nous rejoindre
+        </button>
         </div>
 
          <!-- Menu Mobile Slide -->
@@ -61,7 +66,7 @@
     </header>
 
     <!-- 2. HERO SECTION (Image 1) -->
-    <section class=" container mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-[20%] ">
+    <section class="mt-30 container mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-[20%] ">
         <div class="md:w-1/2 space-y-6 mt-50">
             <div class="inline-flex items-center bg-orange-100 text-orange-700 px-[10%]
              py-5 rounded-full text-xl font-semibold border border-orange-100">
@@ -105,7 +110,7 @@
 
     <!-- 3. KEY FIGURES (Image 2) -->
     <section class=" container max-w-7xl mx-auto px-5 py-10">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-15">
+        <div class="grid grid-cols sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-15">
             <div class="bg-white p-8 rounded-2xl shadow-sm text-center border-b-4 ">
                 <h3 class="text-4xl font-bold text-orange_fnc">70%</h3>
                 <p class="text-gray-500 uppercase text-base font-bold tracking-widest mt-2">Frais couverts</p>
@@ -142,7 +147,7 @@
             Améliorez vos compétences dans le domaine de vos rêves en suivant l'un de nos programmes.
         </p>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-10 text-left ">
+        <div class="grid grid-cols sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 text-left ">
             
             <!-- Card 1 -->
             <div class="p-6 rounded-3xl border border-gray-200 bg-white hover:shadow-xl transition group ">
@@ -227,7 +232,7 @@
     <!-- 5. SUMMARY STATS (Image 4) -->
      <section class="mt-20"> 
     <h2 class="text-5xl font-bold text-center mb-10">Les chiffres témoignent du travail acharné accompli depuis 2016.</h2>
-    <div class="mb-15 flex flex-wrap p-10  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-15">
+    <div class="mb-15 flex flex-wrap p-10  grid grid-cols sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-15">
 
         <div class="w-1/1 p-2">
             <div class=" bg-white border h-45 rounded-lg shadaw-bs p-6 cursor-pointer hover:scale-[99%]
@@ -269,7 +274,7 @@
     <!-- 6. EVENTS (Image 5) -->
     <section class="bg-gray-100 py-20">
          <h2 class="text-3xl font-extrabold text-center mb-12">Événements</h2>
-          <div class="grid grid-cols-4 mx-10  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-15 p-15"> 
+          <div class=" mx-10  grid grid-cols sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-15 p-15"> 
 
           <div class=" w-1/1  bg-white rounded-lg cursor-pointer transition-all duration-700 hover:shadaw-bs ">  
                <div class="mb-4 relative">
@@ -334,7 +339,7 @@
         <div class="container mx-auto px-6">
             <h2 class="text-5xl font-bold text-center mb-12">Nos Bakelistes témoignent</h2>
 
-            <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20">
+            <div class="grid grid-cols md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 mt-20">
                 <!-- Testimonial 1 -->
               <div class="w-1/1  bg-white rounded-lg cursor-pointer  transition-all duration-700 hover:shadow-lg">  
                  <p class="text-gray-900  mb-8 pt-6 px-6 text-2xl font-normal">"(...) Telle est mon histoire, comme celle de beaucoup d'autres.
@@ -401,13 +406,12 @@
 
     <!-- 9. FOOTER (Image 8) -->
     <footer class="bg-white pt-40 pb-8 border-t border-gray-100">
-        <div class="mx-auto px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 %gap-50">
-            <div class="space-y-6">
+        <div class="mx-auto px-10 grid grid-cols sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4  gap-10">
+            <div class="space-y-4">
                 <div class="flex items-center space-x-2">
-                    <div class="w-8 h-8 bg-bakeli-teal rounded-full flex items-center justify-center text-white font-bold">B</div>
                     <div class="bg-[url('Mes_image/img_2.png')] bg-cover w-[95px] h-[80px]"></div>
                 </div>
-                <p class="text-gray-600 text-2xl leading-relaxed ">
+                <p class="text-gray-600 text-2xl leading-relaxed w-auto ">
                    Bakeli est une école de formation professionnelle
                     dans les nouvelles technologies créer par Volkeno.
                      Elle a formé + de 6000 étudiants et professionnels
@@ -422,7 +426,7 @@
             </div>
             
             <div>
-                <h4 class="font-bold text-gray-400 uppercase text-xl tracking-widest mb-6">Bakeli</h4>
+                <h4 class="font-bold text-gray-400 uppercase text-xl tracking-widest mb-6 ">Bakeli</h4>
                 <ul class="space-y-4 text-2xl font-lg">
                     <li><a href="#" class="hover:text-vert_mt">Accueil</a></li>
                     <li><a href="#" class="hover:text-vert_mt">Nos coachs</a></li>
@@ -432,9 +436,9 @@
             </div>
 
             <div>
-                <h4 class="font-bold text-gray-400 uppercase text-xl tracking-widest mb-6">Contacts</h4>
-                <ul class="space-y-4 text-2xl font-lg text-black  hover:text-vert_mt cursor-pointer">
-                    <li>Hlm Grand Yoff Villa n°241
+                <h4 class="font-bold text-gray-400 uppercase text-xl tracking-widest mb-6 ">Contacts</h4>
+                <ul class="space-y-8 text-2xl font-lg text-black  hover:text-vert_mt cursor-pointer px-12">
+                    <li class="leading-relaxed">Hlm Grand Yoff Villa n°241
                          Près du terminus
                           des bus Dakar Dem Dikk
                            qui vont à l'AIBD</li>
@@ -447,9 +451,9 @@
                 <h4 class="font-bold text-gray-400 uppercase text-xl tracking-widest mb-6">S'abonner à la newsletter</h4>
                 <div class="flex flex-col space-y-5">
                     <input type="email" placeholder="Votre email" 
-                    class="bg-white border border-gray-200 rounded-lg px-4 py-8 text-xl focus:outline-none focus:border-bakeli-teal">
-                    <button class="bg-teal-600 transition text-white py-8 rounded-lg font-bold ">S'inscrire</button>
+                    class="bg-white border border-gray-200 rounded-lg px-4 py-7 text-2xl focus:outline-none focus:border-bakeli-teal">
                 </div>
+                 <button class="mt-5 bg-teal-700 transition text-white py-7 rounded-lg font-bold text-xl px-20">S'inscrire</button>
             </div>
         </div>
         <div class="container mx-auto px-6 mt-20 pt-18 border-t border-gray-100 text-center text-gray-600 text-xl">
